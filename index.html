@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<s></s>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>HOME PAGE </title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" src="jquery/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="jquery/jquery.slidertron-0.1.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<style type="text/css">
+@import "slidertron.css";
+.style1 {
+	font-size: 23px;
+	font-weight: bold;
+	color: #00FF00;
+}
+.style2 {font-size: 18px}
+.style3 {color: #FF0000}
+</style>
+</head>
+<body>
+<!-- end #header-wrapper -->
+<div class="style1" id="logo">
+	Automated Detecting Spammers In Social Media</div>
+<div id="header">
+	<div id="menu">
+		<ul>
+			<li><a href="index.html"class="first">Home</a></li>
+			<li class="current_page_item"><a href="UserLogin.jsp"> User </a></li>
+			<li><a href="AdminLogin.jsp">Admin</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="search">
+		<form method="get" action="">
+			<fieldset>
+				<input type="text" name="s" id="search-text" size="15" />
+			</fieldset>
+		</form>
+	</div>
+	<!-- end #search -->
+</div>
+<!-- end #header -->
+<hr />
+<!-- end #logo -->
+<div id="slideshow">
+	<!-- start -->
+	<div id="foobar">
+		<div id="col1"><a href="#" class="previous">&nbsp;</a></div>
+		<div id="col2">
+			<div class="viewer">
+				<div class="reel">
+					<div class="slide"><img src="images/img04.jpg" width="726" height="335" alt="" /> <span>Brand-Related Microblogs..</span> </div>
+					<div class="slide"><img src="images/img07.jpg" width="726" height="335" alt="" /> <span>Social-Smooth Multiview Embedding..</span> </div>
+					<div class="slide"><img src="images/img08.jpg" width="726" height="335" alt="" /> <span>Social Media Platforms..</span> </div>
+				</div>
+			</div>
+		</div>
+		<div id="col3"><a href="#" class="next">&nbsp;</a></div>
+	</div>
+	<script type="text/javascript">
+
+						$('#foobar').slidertron({
+							viewerSelector:			'.viewer',
+							reelSelector:			'.viewer .reel',
+							slidesSelector:			'.viewer .reel .slide',
+							navPreviousSelector:	'.previous',
+							navNextSelector:		'.next',
+							navFirstSelector:		'.first',
+							navLastSelector:		'.last'
+						});
+						
+					</script>
+	<!-- end -->
+</div>
+<div id="page">
+	<div id="page-bgtop">
+		<div id="content">
+			<div class="post">
+				
+				<h2 class="title"><a href="#" class="style2">Social Media, Social Network</a></h2>
+				<div class="entry">
+					<p align="justify">Twitter is one of the most popular micro blogging services, which is generally used to share news and updates through short messages restricted to 280 characters. However, its open nature and large user base are frequently exploited by automated spammers, content polluters, and other ill-intended users to commit various cybercrimes, such as cyber bullying, trolling, rumor dissemination, and stalking. Accordingly, a number of approaches have been proposed by researchers to address
+these problems. However, most of these approaches are based on user characterization and completely disregarding mutual interactions. In this paper, we present a hybrid approach for detecting automated spammers by amalgamating community based features with other feature categories, namely metadata-, content-, and interaction-based features. The novelty of the proposed approach lies in the characterization of users based on their interactions with their followers given that a user can evade features that are related to his/her own activities, but evading those based on the followers is difficult. Nineteen different features, including six newly defined features and two redefined features, are identified for learning three classifiers, namely, random forest, decision tree, and Bayesian network, on a real dataset that comprises benign users and spammers. The discrimination power of different feature categories is also analyzed, and interaction- and community-based features are determined to be the most effective for spam detection, whereas metadata-based features are proven to be the least effective.
+.</p>
+			  </div>
+		  </div>
+	  </div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				
+					<h2>Sidebar Menu</h2>
+				
+				   <p><a href="index.html">Home</a> </p>
+				  <p><a href="UserLogin.jsp">User</a> </p>
+				  <p><a href="AdminLogin.jsp">Admin</a></p>
+				  <p>&nbsp;</p>
+				  <li>
+				    <h2 align="center">Concepts</h2>
+			        <div align="justify" class="style3">Social Media,<br />
+		        Social Network,<br /> 
+		        Spammer, <br />
+		        SpamReview,<br /> 
+		        Fake Review, <br />
+	          Heterogeneous Information Networks.</div>
+			  </li>
+			</ul>
+		    <ul>
+		      <li>
+		        <h2>&nbsp;</h2>
+			  </li>
+	      </ul>
+      </div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p class="style3"><strong>Automated Detecting Spammers In Social Media</strong></p>
+</div>
+<!-- end #footer -->
+<div align=center>This template  downloaded form <a href='http://all-free-download.com/free-website-templates/'>free website templates</a></div></body>
+</html>
