@@ -1,7 +1,7 @@
 Automated Spammer Detection in Social Media
 
 Overview
-This project is a "web-based automated system" designed to detect spammers in social media platforms using *J2EE, Apache Tomcat, and SQL*. It leverages *machine learning* to analyze user activity patterns and flag potential spam accounts for administrative review.
+This project is a "web-based automated system" designed to detect spammers in social media platforms using *J2EE, Apache Tomcat, and SQL*. It leverages *machine learning* algorithms to analyze user activity patterns and flag potential spam accounts for administrative review.
 
 🔹Features
 - User Authentication: Secure login for admin users.
